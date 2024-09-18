@@ -25,5 +25,5 @@ func ExampleAdd() {
 	// Output: 6
 }
 
-// If you publish your code with examples to a public URL, 
+// If you publish your code with examples to a public URL,
 // you can share the documentation of your code at pkg.go.dev.

@@ -27,7 +27,7 @@ type Circle struct {
 
 // Area calculates the area of the circle.
 func (c Circle) Area() float64 {
-	return math.Pi * c.Radius * c.Radius
+	return math.Round(math.Pi*c.Radius*c.Radius*100) / 100
 }
 
 // Triangle represents a triangle with a base and height.

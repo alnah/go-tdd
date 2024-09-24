@@ -51,5 +51,5 @@ func BenchmarkRepeat(b *testing.B) {
 func ExampleRepeat() {
 	string := Repeat("@", 5)
 	fmt.Print(string)
-	//Output: "@@@@@"
+	//Output: @@@@@
 }
